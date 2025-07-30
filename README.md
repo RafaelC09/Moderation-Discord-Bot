@@ -47,3 +47,6 @@ Like already said, this is a moderation bot, so it has some features that you ca
 - !kick
 - !warn
 
+# Notes
+
+I added some notes on the files .py for things that you require to put from your discord like your BOT TOKEN and in the .json file you need to add your server ID. For that you need to join Developer Mode in Discord Configs and Copy ID in your server.
