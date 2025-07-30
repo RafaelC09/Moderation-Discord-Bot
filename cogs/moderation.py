@@ -85,28 +85,6 @@ class Moderation(commands.Cog):
             await ctx.send(f"Não consegui enviar mensagem privada para {member.mention}")
         except Exception as e:
             await ctx.send(f"Erro ao enviar mensagem: {e}")
-        
-        
-    
-    # @commands.command()
-    # async def entra(self, ctx):
-    #    if ctx.author.voice:
-    #        canal = ctx.author.voice.channel
-    #        voice_client = await canal.connect()
-    #        await ctx.guild.change_voice_state(channel=canal, self_mute=True, self_deaf=True)
-    #        await ctx.send(f'Entrei no canal {canal.name}.')
-    #    else:
-    #        await ctx.send("Não estás em canal de voz nenhum.")
-
-
-    #@commands.command()
-    #async def sai(self, ctx):
-    #    voice_client = ctx.voice_client
-    #    if voice_client and voice_client.is_connected():
-    #        await voice_client.disconnect()
-    #        await ctx.send("Saí do canal de voz!")
-    #    else:
-    #        await ctx.send("Não estou em nenhum canal de voz.")
 
 async def setup(bot):
     await bot.add_cog(Moderation(bot))
