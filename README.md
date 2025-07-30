@@ -33,7 +33,7 @@ SimpleDiscordBOT is a modular Discord moderation bot built with Python using the
 
 **To install you need to access this link:**
 
-- [python.py](https://pypi.org/project/discord.py/)
+- [discord.py](https://pypi.org/project/discord.py/)
 
 # Features
 
