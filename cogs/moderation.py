@@ -85,6 +85,6 @@ class Moderation(commands.Cog):
             await ctx.send(f"I couldnt DM {member.mention}")
         except Exception as e:
             await ctx.send(f"I couldnt warn the user: {e}")
-
+            
 async def setup(bot):
     await bot.add_cog(Moderation(bot))

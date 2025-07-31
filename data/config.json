@@ -1,6 +1,6 @@
 {
     "SERVER_ID": { 
-        "prefix": "!",
+        "prefix": "",
         "log_channel": "logs"
     }
 }
