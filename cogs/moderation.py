@@ -79,12 +79,12 @@ class Moderation(commands.Cog):
     @commands.has_permissions(administrator=True)
     async def warn(self, ctx, member: discord.Member, *, message):
         try:
-            await member.send(f"**Aviso do servidor {ctx.guild.name}:**\n{message}")
-            await ctx.send(f"Mensagem de aviso enviada para {member.mention}!")
+            await member.send(f"**Warn from server {ctx.guild.name}:**\n{message}")
+            await ctx.send(f"Warn message sent to {member.mention}!")
         except discord.Forbidden:
-            await ctx.send(f"Não consegui enviar mensagem privada para {member.mention}")
+            await ctx.send(f"I couldnt DM {member.mention}")
         except Exception as e:
-            await ctx.send(f"Erro ao enviar mensagem: {e}")
+            await ctx.send(f"I couldnt warn the user: {e}")
 
 async def setup(bot):
     await bot.add_cog(Moderation(bot))

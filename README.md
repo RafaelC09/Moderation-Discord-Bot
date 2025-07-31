@@ -30,24 +30,26 @@ SimpleDiscordBOT is a modular Discord moderation bot built with Python using the
 
 - Python 3.8+
 - discord.py(v2.3+)
+- asyncio
 
 # Installation
 
 **To install you need to access this link:**
 
 - [discord.py](https://pypi.org/project/discord.py/)
+- `pip install asyncio`
 
 # Features
 
 Like already said, this is a moderation bot, so it has some features that you can use(you can use !helpcmd in discord to see the commands):
 
-- !count
-- !chnick
-- !clean
-- !ban
-- !unban
-- !kick
-- !warn
+- count
+- chnick
+- clean
+- ban
+- unban
+- kick
+- warn
 
 # Notes
 
