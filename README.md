@@ -17,6 +17,8 @@
   •
   <a href="#features">Features</a>
   •
+  <a href="#website">Website</a>
+  •
   <a href="#notes">Notes</a>
 </p>
 
@@ -52,6 +54,14 @@ Like already said, this is a moderation bot, so it has some features that you ca
 - warn
 - ticket
 - close
+
+# Website
+
+This project includes too a simple website that has some features, just like:
+
+- Bot overview
+- All the commands
+- Bot Invite Buttons
 
 # Notes
 
