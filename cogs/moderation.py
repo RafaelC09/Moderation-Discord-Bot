@@ -25,7 +25,7 @@ class Moderation(commands.Cog):
     async def helpcmd(self, ctx):
         embed = discord.Embed(
             title="Help Embed",
-            description="Moderation BOT\nCommands:\n!count -> Counts the letters in a word\n!chnick @member *Nickname -> Changes an member nickname\nAdmins Commands:\n!clean *number -> Cleans a number of messages from a channel\n!ban @member *reason -> Bans a member, an reason can be added\n!unban *user -> Unbans a user banned\n!kick @member *reason -> Kicks a member, an reason can be added\n!warn @member *message -> Warns a member with a message on DM",
+            description="Moderation BOT\nCommands:\ncount -> Counts the letters in a word\nchnick @member *Nickname -> Changes an member nickname\nAdmins Commands:\nclean *number -> Cleans a number of messages from a channel\nban @member *reason -> Bans a member, an reason can be added\nunban *user -> Unbans a user banned\nkick @member *reason -> Kicks a member, an reason can be added\n!warn @member *message -> Warns a member with a message on DM\nticket -> Creates a ticket\nclose -> Closes the ticket",
             color=0xFF5733
         )
         embed.set_author(name="Simple BOT", url=None)

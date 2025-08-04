@@ -50,7 +50,7 @@ body.on {
 }
 
 .main {
-	height: 100vh;
+	height: 105vh;
 }
 
 .scroll-down {
@@ -560,6 +560,42 @@ body.on {
 }
 
 .jumbotron .count p {
+	color: #808080;
+	padding-left: 20px;
+}
+
+.jumbotron-item .ticket {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .ticket h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .ticket p {
+	color: #808080;
+	padding-left: 20px;
+}
+
+.jumbotron-item .close {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .close h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .close p {
 	color: #808080;
 	padding-left: 20px;
 }
