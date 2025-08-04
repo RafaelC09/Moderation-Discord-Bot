@@ -50,6 +50,8 @@ Like already said, this is a moderation bot, so it has some features that you ca
 - unban
 - kick
 - warn
+- ticket
+- close
 
 # Notes
 
