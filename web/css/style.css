@@ -1,8 +1,3 @@
-/*
-* font - from google font
-* https://fonts.google.com/
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
@@ -69,7 +64,6 @@ body.on {
 	font-size: 24px;
 }
 
-/* navbar */
 .navbar-nav  {
 	display: flex;
 	justify-content: space-between;
@@ -132,12 +126,10 @@ body.on {
 }
 
 .navs .navs-item.notbtn:hover {
-	/*transform: scale(1.1);*/
 	font-weight: bold;
 	background-color: rgb(0,0,0,0.3);
 }
 .navs .navs-item.notbtn:focus {
-	/*transform: scale(1.1);*/
 	font-weight: bold;
 	background-color: rgb(0,0,0,0.1);
 	border-radius: 4px;	
@@ -146,9 +138,7 @@ body.on {
 .navs-item .btn {
 	font-weight: bold;
 }
-/* navbar end */
 
-/* jumbotron */
 .jumbotron {
 	margin-top: 100px;
 }
@@ -187,9 +177,7 @@ body.on {
 .jumbotron-item .jumbotron-buttons button {
 	margin: 10px 5px;
 }
-/* jumbotron end */
 
-/* features */
 .features-box .features-t {
 	font-size: 30px;
 	text-align: center;
@@ -247,9 +235,7 @@ body.on {
 	font-size: 30px;
 	font-weight: bold;
 }
-/* features end */
 
-/* services */
 .services-box {
 	margin: 100px;
 }
@@ -290,9 +276,7 @@ body.on {
 .service span {
 	font-weight: bold;
 }
-/* services end */
 
-/* footer */
 .footer {
 	margin-top: 100px;
 	background-color: var(--third);
@@ -330,14 +314,9 @@ body.on {
 .footer-ul li a:hover {
 	color: var(--secondary);
 }
-/* footer end */
 
-/* media query - responsive website */
-
-/* mobile */
 @media (max-width: 992px) {
 
-	/* navbar mobile version */
 	.navbar-toggler {
 		display: block;
 	}
@@ -383,9 +362,7 @@ body.on {
 	.jumbotron-items .jumbotron-item img {
 		display: none;
 	}
-	/* navbar mobile version end */
 
-	/* features mobile version */
 	.features-box .features-t {
 		font-size: 20px;
 		text-align: center;
@@ -402,17 +379,13 @@ body.on {
 	.features .feature:nth-child(2) {
 		flex-direction: column;
 	}
-	/* features mobile version end */
 
-	/* services mobile version */
 	.services-box h1 {
 		font-size: 20px;
 	}
-	/* services mobile version end */
 
 }
 
-/* key frames */
 @keyframes scrolldown {
 	20% {
 		transform: translateY(0px);
@@ -439,4 +412,172 @@ body.on {
 #difeatureimg {
 	height: 50px;
 	width: 500px;
+}
+
+#cmdbtn {
+	color: blue;
+}
+
+.jumbotron-item .jumbotron-p {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+	width: 100%;
+}
+
+.jumbotron-item .chnick {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .chnick h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .chnick p {
+	color: #808080;
+	padding-left: 20px;
+}
+
+.jumbotron-item .clean {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .clean h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .clean p {
+	color: #808080;
+	padding-left: 20px;
+}
+
+.jumbotron-item .ban {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .ban h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .ban p {
+	color: #808080;
+	padding-left: 20px;
+}
+
+.jumbotron-item .unban {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .unban h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .unban p {
+	color: #808080;
+	padding-left: 20px;
+}
+
+.jumbotron-item .kick {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .kick h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .kick p {
+	color: #808080;
+	padding-left: 20px;
+}
+
+.jumbotron-item .warn {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .warn h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .warn p {
+	color: #808080;
+	padding-left: 20px;
+}
+
+.divbar {
+	background-color: #808080;
+	height: 1%;
+	width: 350%;
+}
+
+.jumbotron-item .jumbotron-p2 {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: right;
+	width: 100%;
+}
+
+.jumbotron-item .count {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .count h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .count p {
+	color: #808080;
+	padding-left: 20px;
+}
+
+.jumbotron-item .elo {
+	background: #1D1D24;
+	height: 10%;
+	width: 350%;
+	align-content: center;
+	border-radius: 10px;
+}
+
+.jumbotron .elo h3 {
+	color: azure;
+	padding-left: 20px;
+}
+
+.jumbotron .elo p {
+	color: #808080;
+	padding-left: 20px;
 }

@@ -1,18 +1,18 @@
 :root {
 	/* 
-	* this is primary color, applied on:
+	* primary color, applied on:
 	* background, underline
 	 */
 	--primary: #262626;
 	--primary-disabled: #292222;
 	/*
-	* this is secondary color, applied on:
+	* secondary color, applied on:
 	* text, border
 	*/
 	--secondary: white;
 	--secondary-disabled: #ababab;
 	/*
-	* this is third color, applied on:
+	* third color, applied on:
 	* button, 
 	*/
 	--third: #b31414;
