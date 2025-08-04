@@ -563,21 +563,3 @@ body.on {
 	color: #808080;
 	padding-left: 20px;
 }
-
-.jumbotron-item .elo {
-	background: #1D1D24;
-	height: 10%;
-	width: 350%;
-	align-content: center;
-	border-radius: 10px;
-}
-
-.jumbotron .elo h3 {
-	color: azure;
-	padding-left: 20px;
-}
-
-.jumbotron .elo p {
-	color: #808080;
-	padding-left: 20px;
-}

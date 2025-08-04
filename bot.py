@@ -15,7 +15,6 @@ async def setup():
     await bot.load_extension('cogs.moderation')
     await bot.load_extension('cogs.messages')
     await bot.load_extension('cogs.tickets')
-    await bot.load_extension('cogs.elo')
     
     await bot.start(config.TOKEN)
 
