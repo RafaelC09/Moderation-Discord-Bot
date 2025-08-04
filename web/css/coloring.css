@@ -15,11 +15,11 @@
 	* third color, applied on:
 	* button, 
 	*/
-	--third: #b31414;
-	--third-disabled: #8c1111;
+	--third: blue;
+	--third-disabled: blue;
 	/*
 	* other colors, used on random object.
 	*/
-	--o1: #00b2c9;
-	--o1-disabled: #008191;
+	--o1: blue;
+	--o1-disabled: blue;
 }

@@ -236,32 +236,6 @@ body.on {
 	font-weight: bold;
 }
 
-.services-box {
-	margin: 100px;
-}
-
-.services-box h1 {
-	font-size: 30px;
-	text-align: center;
-}
-
-.services-box h1::after {
-	content: "";
-	display: block;
-	border-bottom: 3px solid var(--third);
-	width: 10%;
-	margin: 0 auto;
-	border-radius: 50px;
-	margin-top: 7px;
-	min-width: 70px;	
-}
-
-.services {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
 .service {
 	width: 200px;
 	height: 50px;
